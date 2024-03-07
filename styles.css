@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+    text-decoration: none;
+
+}
+html ::-webkit-scrollbar-thumb{
+    background: rgb(6, 144, 236);
+    
+
+}
+html ::-webkit-scrollbar{
+    width: 8px;
+
+}
+
+#nav a{
+    color: white;
+}
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://gshock.casio.com/content/experience-fragments/casio/en/feature/timepiece/watch/g-shock/mt_g/mtg_b2000/features02/us/_jcr_content/root/container_963753939/teaser.casiocoreimg.jpeg/1659473003966/mtg-b2000-tile-img-2-1600x900.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 88%;
+}
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+    
+
+}
+#home .content h1{
+    font-size: 50px;
+    color: white;
+}
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+#btn{
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color:rgb(6, 144, 236);
+    color: white;
+}
+.img img{
+    width: 100%;
+    height: 80PX;
+    background-size: cover;
+
+}
+.heading{
+    margin-top: 50PX;
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color:rgb(6, 144, 236) ;
+}
+#products .card{
+    border: transparent;
+}
+#products .card:hover{
+    border: rgb(6, 144, 236);
+    border-radius: 10px;
+    transform: translatey(-10px);
+    cursor: pointer;
+    box-shadow: inset 0 0 10px rgb(6, 144, 236),
+    0 0 10px rgb(6, 144, 236);
+    transition: 0.3s;
+    
+  
+}
+
+ 
+
+#products .card p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+#btn2{
+    width: 260px;
+    height: 25px;
+    margin-top: 10px;
+    border: transparent;
+    border-radius: 3px;
+    background: rgb(6, 144, 236);
+}
+#btn2:hover{
+    background-color:rgb(6, 144, 236);
+    color: white;
+    box-shadow: inset 0 0 10px rgb(6, 144, 236),
+    0 0 10px rgb(6, 144, 236);
+    transition: 0.3s;
+
+}
+/*footer*/
+#footer{
+    width: 100%;
+    background: rgb(6, 144, 236);
+    margin-top: 50px;
+}
+#footer .social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+   
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#footer .social-links i:hover{
+   
+    color: white;
+    border: 2px solid white;
+
+}
+span{
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   #btn2 {
+      width: 100%;
+      
+    }
+    .card{
+        margin-top: 20px;
+    }
+  }
+
+  /* For tablets: */
+  @media only screen and (min-width: 600px){
+    #btn2{width: 100%;}
+  }
